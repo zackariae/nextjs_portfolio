@@ -63,14 +63,14 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I’m a passionate software engineering enthusiast, based in Hamburg.
+            I am a passionate software engineering enthusiast, based in Hamburg.
             My academic journey began in Ukraine, where I spent 2.5 years
             building a strong foundation in algorithms, data structures,
             networks, software lifecycle, and design patterns. I specialize in
             the MERN stack and continuously expand my skills through courses
-            like Meta's Professional Web Developer, IBM Web Development
-            Fundamentals, ReDI's UI/UX, and ReDI's JS Intermediate Course. I
-            also hold a B2 German language level.
+            like Meta&apos;s Professional Web Developer, IBM Web Development
+            Fundamentals, ReDI&apos;s UI/UX, and ReDI&apos;s JS Intermediate
+            Course. I also hold a B2 German language level.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
