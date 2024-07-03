@@ -2,9 +2,9 @@
 const colors = require("tailwindcss/colors");
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -16,7 +16,7 @@ module.exports = {
     },
     colors: {
       ...colors,
-      primary: colors.sky,
+      primary: colors.orange,
       secondary: colors.purple,
     },
   },
